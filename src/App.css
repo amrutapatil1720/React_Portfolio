@@ -1,33 +1,197 @@
-.App {
+
+.header-color {
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:15%;
+
+}
+
+.page-content {
+  max-width:960px;
+  max-height: inherit;
+  margin:auto;
+  color:red;
+}
+
+.landing-grid {
+  background-image: url("https://wallpapertag.com/wallpaper/full/0/6/3/49612-mountains-wallpaper-1920x1080-for-android-40.jpg");  /* fallback for old browsers */
+    text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-image {
+  height:250px;
+   border-radius: 50%;
+  padding: 6.5rem;
+  display:block;
+  margin-left: auto;
+ margin-right: auto;
+ width:20%;
+
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width:75%;
+  padding :0.1rem;
+  margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ margin-top: -5rem;
+   border-radius: 10px;
+}
+
+.banner-text h1 {
+  color: white;
   text-align: center;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.banner-text hr {
+  border-top: 3px dotted white;
+  width:50%;
+  margin: 2rem auto auto auto;
+}
+.banner-text p {
+  color: white;
+  padding: 1em;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  width:50%;
+  margin:auto;
+}
+
+.social-links i {
+  color:white;
+  font-size: 5em;
+  padding: -5px;
+}
+
+.projects-grid {
+  /* fallback for old browsers */
+
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  margin-top:2.2em;
+}
+
+.contact-body {
+  margin:auto;
+  position:fixed;
+  width:100%;
+  height:100%;
+  padding-top:2rem;
+  justify-content: right;
+
+}
+.contact-grid {
+  text-align: center;
+justify-content: center;
+  width:80%;
+  height:550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.footer-grid {
+  width: 100%;
+  position: fixed;
+ left: 0;
+ bottom: 0;
+ height: 18%;
+ background-color: #373B44;
+
+}
+.footer-grid h3 {
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 2em;
+ color: white;
+ justify-content: center;
+ font-weight: 700;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer-link fa {
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+  :hover {
+    opacity: 0.7;
+}
+}
+.fa-facebook {
+  background: #3B5998;
   color: white;
 }
+.footer-link i{
+  width:50%;
+  margin:2px auto;
+  color:white;
+  font-size: 2.5em;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-link {
+  margin:50px auto;
+  width:140px;
+  text-align:center;
+}
+.footer-link i
+{
+  font-size:10px;
+  justify-content: space-between;
+  width:50%;
+  margin:auto;
+  color:white;
+  font-size: 2.5em;
+}
+
+.contact-grid h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 1.6px;
+  color: #2c2d2d;
+
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin:auto;
+}
+
+.contact-list i{
+font-size: 58px;
+padding-right: 0.8em;
+padding-left: 1.2em;
+}
+
+.resume-right-col {
+  background:#27221F;
+  color:white;
+  padding: 2em;
 }
