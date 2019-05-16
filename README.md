@@ -4,7 +4,7 @@
 
 # React Portfolio
 
-[Demo](https://github.com/amrutapatil1720/React_Portfolio)
+[Demo](https://github.com/amrutapatil1720/React_Portfolio/public/index.html)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
